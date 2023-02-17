@@ -1,0 +1,4 @@
+---
+# vars file for getinfo
+frame_number: 123456
+server_name: db_avsh

@@ -1,0 +1,12 @@
+---
+# tasks file for getinfo
+# - name: get saninfo output
+#   command: auto/hosting/bin/saninfo -L | sort -k10  
+#   register: list_out
+
+# - name: 
+- delegate_to: "{{ server_name }}"
+  block:
+    - name: run getsaninfo.py on server_name
+      
+   
