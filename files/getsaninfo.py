@@ -5,6 +5,7 @@
 import subprocess
 import os
 import json
+#tmp.py file contains sanindo o/p in json format
 import tmp
 
 frame_number = "000197802751"
