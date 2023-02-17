@@ -12,5 +12,5 @@ print('- ' * 20)
 # Load the JSON to a Python list & dump it back out as formatted JSON
 data = json.loads(my_json)
 print(type(data))
-s = json.dumps(data, indent=4, sort_keys=True)
-print(s)
+str = json.dumps(data, indent=4, sort_keys=True)
+print(str)
